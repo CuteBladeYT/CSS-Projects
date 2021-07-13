@@ -1,0 +1,47 @@
+:root {
+/* You can change the link in url(""); below with your own link to change background to your own */
+    --ytbg-url: url("https://i.ibb.co/YcFHfwQ/kYW2H5C.jpg"); /* <- Place link with image here */
+}
+
+html {
+    background-image: var(--ytbg-url);
+    background-repeat: no-repeat;  
+    background-size: 100vw 100vh;
+}
+
+div.style-scope.ytd-two-column-browse-results-renderer {
+    background-image: var(--ytbg-url);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+div.style-scope.ytd-watch-flexy {
+    background-image: var(--ytbg-url);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+yt-formatted-string {
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000;
+}
+
+span.style-scope.ytd-compact-video-renderer {
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000;
+}
+
+div.style-scope.ytd-video-meta-block {
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000;
+}
+
+ytd-search.style-scope.ytd-page-manager {
+     background-image: var(--ytbg-url);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+span.style-scope.ytd-radio-renderer {
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000;
+}
