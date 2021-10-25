@@ -1,3 +1,10 @@
+/**
+ * @name UCI Theme
+ * @author UnitedCatdom
+ * @version 1.1.0
+ * @website https://cutebladeyt.github.io/cuteblade/
+*/
+
 :root {
     --button-color: lime; /* Change background color of Buttons */
     --link-color: red; /* Change links color */
@@ -5,8 +12,6 @@
     --border-color: white; /* Change borders color */
     --border-width: 0.1vw; /* CHange borders width */
 }
-
-/* v1.1.0 */
 
 a {
     color: var(--link-color);
