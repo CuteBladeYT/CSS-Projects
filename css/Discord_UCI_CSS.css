@@ -10,6 +10,30 @@
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 :root {
+    --button-color: blue; /* Change background color of Buttons */
+    --link-color: red; /* Change links color */
+    --chatbox-border: red; /* Change color of Chatbox border */
+    --border-width: 0.1vw; /* CHange borders width */
+
+    --rs-small-spacing: 2px; /* Gap between avatar and status for members list/dms | MUST end in px */
+    --rs-medium-spacing: 3px; /* Gap between avatar and status for User popout | MUST end in px */
+    --rs-large-spacing: 4px; /* Gap between avatar and status for User profiles | MUST end in px */
+
+    --rs-small-width: 2px; /* Thickness of status border for members list/dms | MUST end in px */
+    --rs-medium-width: 3px; /* Thickness of status border for User popout | MUST end in px */
+    --rs-large-width: 4px; /* Thickness of status border for User profile | MUST end in px */
+
+    --rs-avatar-shape: 50%; /* 50% for round - 0% for square */
+
+    --rs-online-color: lime; /* Colour for online status */ /* #43b581 */
+    --rs-idle-color: yellow; /* Colour for idle status */ /* #faa61a */
+    --rs-dnd-color: rgb(0, 4, 255); /* Colour for dnd status */ /* #f04747 */
+    --rs-offline-color: gray; /* Colour for offline status */ /* #636b75 */
+    --rs-streaming-color: rgb(36, 0, 165); /* Colour for streaming status */ /* #643da7 */
+    --rs-invisible-color: #747f8d; /* Colour for invisible status - Note: this will only show for your own invisibility */
+    --rs-phone-color: var(--rs-online-color); /* Colour of the ring and phone icon when a user is on their phone |  */
+
+    --rs-phone-visible: block; /* Visibility of the phone icon next to a users avatar. | block = visible | none = hidden */
 }
 
 a {
