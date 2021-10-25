@@ -1,7 +1,7 @@
 /**
  * @name UCI Theme
  * @author UnitedCatdom
- * @version 1.1.0
+ * @version 1.2.0
  * @website https://cutebladeyt.github.io/cuteblade/
 */
 
@@ -9,7 +9,6 @@
     --button-color: lime; /* Change background color of Buttons */
     --link-color: red; /* Change links color */
     --chatbox-border: red; /* Change color of Chatbox border */
-    --border-color: white; /* Change borders color */
     --border-width: 0.1vw; /* CHange borders width */
 }
 
@@ -23,7 +22,6 @@ a {
 
 #private-channels {
     background-color: rgb(22, 22, 22);
-    border-right: var(--border-width) var(--border-color) solid;
 }
 
 .container-1r6BKw.themed-ANHk51 {
@@ -32,13 +30,10 @@ a {
 
 .searchBar-6Kv8R2 {
     background-color: rgb(22, 22, 22);
-    border-right: var(--border-width) var(--border-color) solid;
 }
 
 .panels-j1Uci_ {
     background-color: rgb(22, 22, 22);
-    border-right: var(--border-width) var(--border-color) solid;
-    border-top: var(--border-width) var(--border-color) solid;
 }
 
 .container-19hC9u.scroller-1IIF0A.stickyScroller-24zUyY.auto-Ge5KZx.scrollerBase-289Jih {
@@ -54,13 +49,10 @@ a {
 
 .scroller-1Bvpku.none-2Eo-qx.scrollerBase-289Jih {
     background-color: rgb(17, 17, 17);
-    border-right: var(--border-width) var(--border-color) solid;
-    padding-right: var(--border-width);
 }
 
 .container-lRFx4q {
     background-color: rgb(22, 22, 22);
-    border-left: var(--border-width) var(--border-color) solid;
 }
 .emptyCard-1RJw8n {
     background-color: rgb(22, 22, 22);
@@ -209,10 +201,6 @@ a {
 }
 .scroller-RmtA4e.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 {
     background-color: rgb(25, 25, 25);
-    border-right: var(--border-width) var(--border-color) solid;
-}
-.membersWrap-2h-GB4.hiddenMembers-2dcs_q {
-    border-left: var(--border-width) var(--border-color) solid;
 }
 
 .container-1taM1r.clickable-25tGDB.selected-31Nl7x,
@@ -240,4 +228,30 @@ a {
 
 .scroller-lynW5A.thin-1ybCId.scrollerBase-289Jih {
    background-color: rgb(25, 25, 25); 
+}
+
+.connection-1fbD7X.marginBottom8-AtZOdT {
+    background-color: rgb(30, 30, 30);
+}
+.connectionHeader-2MDqhu {
+    background-color: rgb(40, 40, 40);
+}
+.accountList-33MS45.marginBottom20-32qID7 {
+    background-color: rgb(40, 40, 40);
+}
+.inner-2Y6JuD.accountBtnInner-sj5jLs {
+    background-color: rgb(50, 50, 50);
+}
+
+.noItemsCard-153Tex.card-3Qj_Yx,
+.noItemsCard-3TSAgO.card-3Qj_Yx {
+    background-color: rgb(40, 40, 40);
+}
+
+.preview-2nSL_2.group-spacing-16.cardPrimaryOutline-29Ujqw.card-3Qj_Yx {
+    background-color: rgb(25, 25, 25); 
+}
+
+.channelNotice-1-XFjC.premiumGuildSubscription-3oKecP {
+    background-color: rgb(25, 25, 25);
 }
