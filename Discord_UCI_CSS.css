@@ -1,3 +1,11 @@
+:root {
+    --button-color: lime; /* Change background color of Buttons */
+    --link-color: red; /* Change links color */
+    --chatbox-border: red; /* Change color of Chatbox border */
+    --border-color: white; /* Change borders color */
+    --border-width: 0.1vw; /* CHange borders width */
+}
+
 /* v1.1.0 */
 
 a {
