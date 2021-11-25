@@ -1,0 +1,46 @@
+/*
+    - Name:     Discord UCIv2 CSS  
+    - Author:   UnitedCatdom | ID: 540104316103688193
+    - Version:  1.1.0
+*/
+
+:root {
+	--background: url(https://i.imgur.com/PwZGrPq.jpg);
+	
+	--dc-spacing: 1vw;
+	--dc-opacity: 0.95;
+	--dc-border-width: 0.1vw;
+	--dc-border-color: white;
+	--dc-border-radius: 0.3vw;
+}
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss {
+	background: var(--background);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > nav,
+#app-mount > div.mobileApp-13Vx-n > div > div.layers-3iHuyZ.layers-3q14ss > div > div > nav {
+	position: fixed;
+	top: var(--dc-spacing);
+	left: var(--dc-spacing);
+	width: 72px;
+	height: calc(100vh - (var(--dc-spacing) * 2));
+	border: var(--dc-border-width) var(--dc-border-color) solid;
+	border-radius: var(--dc-border-radius);
+	opacity: var(--dc-opacity);
+}
+
+#app-mount > div.app-1q1i1E > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div,
+#app-mount > div.mobileApp-13Vx-n > div > div.layers-3iHuyZ.layers-3q14ss > div > div > div {
+	position: fixed;
+	top: var(--dc-spacing);
+	right: var(--dc-spacing);
+	width: calc(100vw - var(--dc-spacing) - 72px - var(--dc-spacing) - var(--dc-spacing));
+	height: calc(100vh - (var(--dc-spacing) * 2));
+	border: var(--dc-border-width) var(--dc-border-color) solid;
+	border-radius: var(--dc-border-radius);
+	opacity: var(--dc-opacity)!important;
+}
