@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://synergia.librus.pl/gateway/ms/studentdatapanel/ui/") {
 /*
 	Nazwa:	Librus Synergia CSS
 	Autor:	UnitedCatdom
@@ -26,3 +27,5 @@
 
 /* NIE DOTYKAĆ! */
 @import url("https://cutebladeyt.github.io/CSS-Projects/css/Librus_Synergia.css");
+
+}
