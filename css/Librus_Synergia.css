@@ -1,0 +1,98 @@
+/*
+	Nazwa:	Librus Synergia CSS
+	Autor:	UnitedCatdom
+	Wersja:	1.0
+*/
+
+/*	Główny widok	*/
+/*		Tło			*/
+#root > div > div.jss84.jss85,
+#root > div > div.jss84.jss85 > footer {
+	background: rgb(40, 40, 40)!important;
+}
+
+/* 		Pozycja		*/
+#root > div > div.jss84.jss85 {
+	position: fixed;
+	right: 0vw;
+	top: 10vh;
+	width: 100vw;
+	height: 90vh;
+}
+#root > div > div.jss84.jss85 > main {
+	position: fixed;
+	right: 10vw;
+	top: 10vh;
+	width: 80vw;
+	height: 90vh;
+	overflow: auto!important;
+}
+
+/*		Pasek przewijania		*/
+::-webkit-scrollbar {
+  width: 1vw;
+}
+::-webkit-scrollbar-track {
+  background: rgb(27, 27, 27);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(255, 255, 255);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*		Nagłówek	*/
+#root > div > header {
+	background: rgb(30, 30, 30);
+	position: fixed;
+	top: 0vh;
+	left: 0vw;
+	width: 100vw;
+	height: 10vh;
+}
+/*			Ukrywanie przycisku menu bocznego		*/
+#root > div > header > div > div.MuiBox-root.jss314 > button {
+	display: none;
+}
+
+/* 		Powiadomienia, Oceny itd		*/
+.MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
+	background: rgb(60, 60, 60)
+}
+
+/*		Poprawki koloru czcionek		*/
+h6.MuiTypography-root.MuiTypography-subtitle2.MuiTypography-colorPrimary {
+	color: white;
+}
+
+/* 		Menu	 */
+.MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
+	background: rgba(40, 40, 40, 0.6);
+	backdrop-filter: blur(0.2vw);
+}
+
+/*	Boczne menu		*/
+/*		Otwieranie/zamykanie przy najechaniu myszką		*/
+#mainMenu > div {
+	position: fixed;
+	top: 10vh;
+	left: -22vw;
+	width: 30vw;
+	height: 90vh;
+	opacity: 0.2;
+	transition: 500ms ease!important;
+}
+#mainMenu > div:hover {
+	left: 0vw;
+	opacity: 1;
+}
+
+/*		Tło		*/
+#mainMenu > div,
+#mainMenu > div > div.jss109,
+#mainMenu > div > div.jss113,
+#mainMenu > div > div.jss112 {
+	background: rgba(27, 27, 27, 0.3);
+	backdrop-filter: blur(0.2vw);
+}
