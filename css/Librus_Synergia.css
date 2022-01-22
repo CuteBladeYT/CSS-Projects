@@ -1,14 +1,33 @@
 /*
 	Nazwa:	Librus Synergia CSS
 	Autor:	UnitedCatdom
-	Wersja:	1.0
+	Wersja:	2.0
 */
+
+/*	Konfiguracja	*/
+:root {
+	--tlo-glowne: rgb(40, 40, 40);
+	
+	--szerokosc-paska-prz: 1vw;
+	--tlo-paska-przwijania: rgb(27, 27, 27);
+	--przycisk-paska-prz: white;
+	
+	--tlo-naglowka: rgb(30, 30, 30);
+	
+	--kolor-panelu: rgb(60, 60, 60);
+	
+	--tlo-malego-menu: rgba(40, 40, 40, 0.6);
+	
+	--rozmycie-menu: 0.2vw;
+	
+	--tlo-bocznego-menu: rgba(27, 27, 27, 0.3);
+}
 
 /*	Główny widok	*/
 /*		Tło			*/
 #root > div > div.jss84.jss85,
 #root > div > div.jss84.jss85 > footer {
-	background: rgb(40, 40, 40);
+	background: var(--tlo-glowne);
 }
 
 /* 		Pozycja		*/
@@ -30,21 +49,18 @@
 
 /*		Pasek przewijania		*/
 ::-webkit-scrollbar {
-  width: 1vw;
+  width: var(--szerokosc-paska-prz);
 }
 ::-webkit-scrollbar-track {
-  background: rgb(27, 27, 27);
+  background: var(--tlo-paska-przwijania);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(255, 255, 255);
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: var(--przycisk-paska-prz);
 }
 
 /*		Nagłówek	*/
 #root > div > header {
-	background: rgb(30, 30, 30);
+	background: var(--tlo-naglowka);
 	position: fixed;
 	top: 0vh;
 	left: 0vw;
@@ -58,7 +74,7 @@
 
 /* 		Powiadomienia, Oceny itd		*/
 .MuiPaper-root.MuiPaper-elevation1.MuiPaper-rounded {
-	background: rgb(60, 60, 60)
+	background: var(--kolor-panelu)
 }
 
 /*		Poprawki koloru czcionek		*/
@@ -68,8 +84,8 @@ h6.MuiTypography-root.MuiTypography-subtitle2.MuiTypography-colorPrimary {
 
 /* 		Menu	 */
 .MuiPaper-root.MuiMenu-paper.MuiPopover-paper.MuiPaper-elevation8.MuiPaper-rounded {
-	background: rgba(40, 40, 40, 0.6);
-	backdrop-filter: blur(0.2vw);
+	background: var(--tlo-malego-menu);
+	backdrop-filter: blur(var(--rozmycie-menu));
 }
 
 /*	Boczne menu		*/
@@ -93,6 +109,6 @@ h6.MuiTypography-root.MuiTypography-subtitle2.MuiTypography-colorPrimary {
 #mainMenu > div > div.jss109,
 #mainMenu > div > div.jss113,
 #mainMenu > div > div.jss112 {
-	background: rgba(27, 27, 27, 0.3);
-	backdrop-filter: blur(0.2vw);
+	background: var(--tlo-bocznego-menu);
+	backdrop-filter: blur(var(--rozmycie-menu));
 }
