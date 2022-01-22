@@ -1,7 +1,28 @@
 /*
 	Nazwa:	Librus Synergia CSS
 	Autor:	UnitedCatdom
-	Wersja:	1.0
+	Wersja:	2.0
 */
 
+/*	Konfiguracja	*/
+:root {
+	--tlo-glowne: rgb(40, 40, 40);
+	
+	--szerokosc-paska-prz: 1vw;
+	--tlo-paska-przwijania: rgb(27, 27, 27);
+	--przycisk-paska-prz: white;
+	
+	--tlo-naglowka: rgb(30, 30, 30);
+	
+	--kolor-panelu: rgb(60, 60, 60);
+	
+	--tlo-malego-menu: rgba(40, 40, 40, 0.6);
+	
+	--rozmycie-menu: 0.2vw;
+	
+	--tlo-bocznego-menu: rgba(27, 27, 27, 0.3);
+}
+
+
+/* NIE DOTYKAĆ! */
 @import url("https://cutebladeyt.github.io/CSS-Projects/css/Librus_Synergia.css");
